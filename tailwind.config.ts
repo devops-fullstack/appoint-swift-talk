@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for our booking app
+				busy: '#FF8C00', // Dark orange for busy days
+				available: '#4CAF50', // Green for available days
+				past: '#9E9E9E', // Gray for past days
+				confirmed: '#2196F3', // Blue for confirmed appointments
+				activered: '#F44336', // Red for active phone booking button
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
